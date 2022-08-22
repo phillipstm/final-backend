@@ -14,7 +14,7 @@ app.get('/items', Data.getAllItems);
 app.get('/items/:id', Data.getOneItem);
 app.post('/items', Data.addAnItem);
 //delete?
-
+app.delete('/items/:id', Data.deleteOneItem);
 
 
 
